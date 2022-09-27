@@ -1,14 +1,19 @@
-import { Dashboard } from "@components/Dashboard";
 import { Header } from "@components/Header/Header";
 import Initial from "./home";
-
+import { useTheme } from "@hooks/ThemeContext";
+import { Footer } from "@components/Footer";
 
 export default function Home() {
+  const { theme } = useTheme();
   return (
     <>
-      <Header />
-      <Dashboard  />
-      <Initial />
+      <main
+        className={`${theme === "dark" ? "dark" : ""} w-full min-h-screen dark:bg-bgdark bg-white`}
+      >
+        <Header />
+        <Initial />
+        <Footer />
+      </main>
     </>
   );
 }
