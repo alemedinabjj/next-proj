@@ -1,5 +1,8 @@
 import { Dashboard } from "@components/Dashboard";
 import { Header } from "@components/Header/Header";
+import Initial from "./home";
+
+
 import styled from 'styled-components'
 
 const Title = styled.h1`
@@ -7,12 +10,12 @@ const Title = styled.h1`
   font-size: 50px;
 `;
 
-export default function Home() {
+export default function Home({ themeToggle }) {
   return (
     <>
       <Header />
-      <Title>Hello World</Title>
-      <Dashboard />
+      <Dashboard themeToggle={themeToggle} />
+      <Initial />
     </>
   );
 }

@@ -5,19 +5,9 @@ interface IGlobalStyleProps {
     colors: {
       primary: string
       secondary: string
-      tertiary: string
-      quaternary: string
-      quinary: string
-      senary: string
-      septenary: string
-      octonary: string
-      nonary: string
-      denary: string
-      undenary: string
-      duodenary: string
-      treddenary: string
-      quattuordenary: string
-      quindenary: string
+      body: string
+      toggleBorder: string
+      background: string
     }
   }
 }

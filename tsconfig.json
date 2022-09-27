@@ -3,9 +3,8 @@
     "baseUrl": ".", 
 
     "paths": {
-      "@components/*": ["./src/components/*.tsx"],
-      "@pages/*": ["./src/pages/*"],
-      "@styles/*": ["./src/styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@styles/*": ["./src/styles/*.ts"],
       "@utils/*": ["./src/utils/*"],
       "@hooks/*": ["./src/hooks/*"],
     },

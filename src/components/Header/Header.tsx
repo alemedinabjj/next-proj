@@ -1,7 +1,9 @@
+import * as S from './styles'
+
 export const Header = () => {
   return (
-    <header>
+    <S.MainHeader>
       <h1>Header</h1>
-    </header>
+    </S.MainHeader>
   )
 }
