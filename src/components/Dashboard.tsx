@@ -1,8 +1,7 @@
-export const Dashboard = ({ themeToggle }) => {
+export const Dashboard = () => {
   return (
     <div>
       <h1>Dashboard</h1>
-      <button onClick={themeToggle}>Toggle Theme</button>
     </div>
   );
 };
