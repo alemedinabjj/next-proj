@@ -11,7 +11,7 @@ export const Header = () => {
 
   const { theme, toggleTheme } = useTheme();
   return (
-    <header className="w-full dark:bg-primary bg-darkprimary text-white flex justify-between items-center px-20 py-4 sticky top-0 z-10">
+    <header className="w-full bg-darkprimary dark:bg-primary text-white flex justify-between items-center px-20 py-4 sticky top-0 z-10">
       <div className="flex items-center gap-20">
         <Logo />
         <div>

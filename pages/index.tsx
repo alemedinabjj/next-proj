@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <main
-        className={`${theme === "dark" ? "dark" : ""} w-full min-h-screen dark:bg-bgdark bg-white`}
+        className={`w-full min-h-screen dark:bg-bgdark bg-white`}
       >
         <Header />
         <Initial />
