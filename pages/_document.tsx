@@ -20,6 +20,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
+          <meta name="theme-color" content="#000000" />
         </Head>
         <body>
           <Main />
