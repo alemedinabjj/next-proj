@@ -1,3 +1,5 @@
+import { BaseIcon } from "@utils/BaseIcon"
+
 export const Footer = () => {
   return (
     <div className="w-full dark:bg-primary bg-darkprimary py-32 mt-10">
@@ -8,30 +10,30 @@ export const Footer = () => {
             <h5 className="text-lg mt-0 mb-2 text-gray-700">
               The ultimate tool to create your own Valorant maps.
             </h5>
-            <div className="mt-6">
+            <div className="mt-6 flex gap-2">
               <button
-                className="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                aria-label="Facebook"
                 type="button"
               >
-                <i className="fab fa-twitter"></i>
+                <BaseIcon name="FaFacebookF" size="2rem" color={undefined} />
               </button>
               <button
-                className="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                aria-label="Twitter"
                 type="button"
               >
-                <i className="fab fa-facebook-square"></i>
+                <BaseIcon name="FaTwitter" size="2rem" color={undefined} />
               </button>
               <button
-                className="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                aria-label="Instagram"
                 type="button"
               >
-                <i className="fab fa-github"></i>
+                <BaseIcon name="FaInstagram" size="2rem" color={undefined} />
               </button>
               <button
-                className="bg-white text-gray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                aria-label="Github"
                 type="button"
               >
-                <i className="fab fa-instagram"></i>
+                <BaseIcon name="FaGithub" size="2rem" color={undefined} />
               </button>
             </div>
           </div>
