@@ -1,7 +1,7 @@
 import { BaseIcon } from "@utils/BaseIcon"
 import Image from 'next/image'
 import IMG from '../public/teste.png'
-
+import Link from "next/link"
 
 export const Card = () => {
   return(
@@ -24,6 +24,12 @@ export const Card = () => {
         <p className="text-white">1</p>
       </div>
      </div>
+     <Link href="/details/asasd">
+      <div className="flex items-center gap-2 px-3 py-2 cursor-pointer">
+          <BaseIcon name="FaLongArrowAltRight" size="1rem" color={undefined} />
+          <p className="text-white">Details</p>
+        </div>
+      </Link>
     </div>
   )
 }

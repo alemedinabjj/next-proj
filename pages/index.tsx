@@ -1,14 +1,15 @@
 import { Header } from "@components/Header/Header";
-import Initial from "./home";
 import { useTheme } from "@hooks/ThemeContext";
 import { Footer } from "@components/Footer";
+
+import Initial from "./home";
 
 export default function Home() {
   const { theme } = useTheme();
   return (
     <>
       <main
-        className={`w-full min-h-screen dark:bg-bgdark bg-white`}
+        className={`w-full min-h-screen bg-bgdark dark:bg-white`}
       >
         <Header />
         <Initial />
