@@ -8,7 +8,7 @@ export const Card = () => {
     <div className="w-[250px] min-h-[320px] bg-darkprimary dark:bg-primary flex flex-col justify-between rounded">
       <div>
       <header className="w-full bg-primary dark:bg-darkprimary py-3">
-        <h1 className="text-center text-white">Card</h1>
+        <h1 className="text-center text-textdark">Card</h1>
       </header>
       <div className="w-full">
         <Image src={IMG} width={250} height={167} alt="card pixel" />

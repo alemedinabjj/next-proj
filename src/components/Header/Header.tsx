@@ -18,7 +18,7 @@ export const Header = () => {
           <div className="flex gap-2 items-center cursor-pointer px-6 py-1 dark:bg-darkprimary bg-primary rounded"  onClick={showMenu}>
             <p
              
-              className=""
+              className="text-textdark"
             >
               MAPS
             </p>
@@ -47,7 +47,7 @@ export const Header = () => {
           <BaseIcon name={theme === "dark" ? "FaSun" : "FaMoon"} />
         </button>
         <div className="px-6 py-1 dark:bg-darkprimary bg-primary rounded flex items-center gap-2">
-          <p>Sign In</p>
+          <p className="text-textdark">Sign In</p>
           <BaseIcon name="FaUser" size="1rem" color={undefined} />
         </div>
       </div>
