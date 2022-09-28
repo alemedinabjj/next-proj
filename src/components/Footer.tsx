@@ -43,28 +43,28 @@ export const Footer = () => {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Blog
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Github
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Free Products
@@ -78,28 +78,28 @@ export const Footer = () => {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       MIT License
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Terms &amp; Conditions
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Contact Us
                     </a>
                   </li>
                   <li>
-                    <a
+                    <a href="#ale"
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     >
                       Make something

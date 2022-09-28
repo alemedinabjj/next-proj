@@ -11,7 +11,7 @@ export const Card = () => {
         <h1 className="text-center text-white">Card</h1>
       </header>
       <div className="w-full">
-        <Image src={IMG} width={250} height={200} />
+        <Image src={IMG} width={250} height={200} alt="card pixel" />
       </div>
       </div>
      <div className="flex items-center gap-10">
