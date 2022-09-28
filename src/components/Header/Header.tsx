@@ -41,7 +41,9 @@ export const Header = () => {
         </div>
       </div>
       <div className="flex items-center gap-6">
-        <button onClick={toggleTheme}>
+        <button onClick={toggleTheme} 
+          aria-label="Toggle Dark Mode"
+        >
           <BaseIcon name={theme === "dark" ? "FaSun" : "FaMoon"} />
         </button>
         <div className="px-6 py-1 dark:bg-darkprimary bg-primary rounded flex items-center gap-2">
