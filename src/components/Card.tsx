@@ -1,35 +1,41 @@
-import { BaseIcon } from "@utils/BaseIcon"
-import Image from 'next/image'
-import IMG from '../public/teste.png'
-import Link from "next/link"
+import { BaseIcon } from "@utils/BaseIcon";
+import Image from "next/image";
+import IMG from "../public/teste.png";
+import Link from "next/link";
 
 export const Card = () => {
-  return(
+  return (
     <div className="w-[250px] min-h-[320px] bg-darkprimary dark:bg-primary flex flex-col justify-between rounded">
       <div>
-      <header className="w-full bg-primary dark:bg-darkprimary py-3">
-        <h1 className="text-center text-textdark">Card</h1>
-      </header>
-      <div className="w-full">
-        <Image src={IMG} width={250} height={167} alt="card pixel" />
+        <header className="w-full bg-primary dark:bg-darkprimary py-3">
+          <h1 className="text-center text-textdark">Card</h1>
+        </header>
+        <div className="w-full">
+          <Image src={IMG} width={250} height={167} alt="card pixel" />
+        </div>
       </div>
+      <div className="flex items-center gap-10">
+        <div className="flex items-center gap-2 px-3 py-2">
+          <BaseIcon name="FaEye" size="1rem" color={undefined} />
+          <p className="text-white">12k views</p>
+        </div>
+        <div className="flex items-center gap-2 px-3 py-2">
+          <BaseIcon name="FaStar" size="1rem" color="#FFD700" />
+          <p className="text-white">1</p>
+        </div>
       </div>
-     <div className="flex items-center gap-10">
-     <div className="flex items-center gap-2 px-3 py-2">
-        <BaseIcon name="FaEye" size="1rem" color={undefined} />
-        <p className="text-white">12k views</p>
-      </div>
-      <div className="flex items-center gap-2 px-3 py-2">
-        <BaseIcon name="FaStar" size="1rem" color={undefined} />
-        <p className="text-white">1</p>
-      </div>
-     </div>
-     <Link href="/details/asasd">
-      <div className="flex items-center gap-2 px-3 py-2 cursor-pointer">
+      <span
+        className="text-white px-2 text-sm opacity-20 text-end"
+        aria-label="Created at"
+      >
+        send by jose
+      </span>
+      <Link href="/details/asasd">
+        <div className="flex items-center gap-2 px-3 py-2 cursor-pointer">
           <BaseIcon name="FaLongArrowAltRight" size="1rem" color={undefined} />
           <p className="text-white">Details</p>
         </div>
       </Link>
     </div>
-  )
-}
+  );
+};

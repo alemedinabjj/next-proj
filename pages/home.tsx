@@ -6,7 +6,7 @@ const Initial = () => {
   return (
     <main className="w-full min-h-screen px-20">
       <Head>
-        <title>Home</title>
+        <title>Home | Vava Pixel</title>
       </Head>
       <div className="flex gap-6 mt-10 flex-wrap items-center justify-center">
         <Card />

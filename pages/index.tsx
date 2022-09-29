@@ -1,4 +1,4 @@
-import { Header } from "@components/Header/Header";
+import { Header } from "@components/Header";
 import { useTheme } from "@hooks/ThemeContext";
 import { Footer } from "@components/Footer";
 
