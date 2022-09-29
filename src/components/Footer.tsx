@@ -119,7 +119,7 @@ export const Footer = () => {
             <div className="text-sm text-gray-600 font-semibold py-1">
               © {new Date().getFullYear()}{" "}
               <a
-                href="https://www.creative-tim.com"
+                href="#ale"
                 className="text-gray-600 hover:text-gray-900"
               >
                 Astarix Inc.

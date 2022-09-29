@@ -39,7 +39,7 @@ export const Card = () => {
         </div>
       </div>
       <span
-        className="text-white px-2 text-sm opacity-20 text-end"
+        className="text-gray-600 hover:text-gray-900 px-2 text-sm text-end"
         aria-label="Created at"
       >
         send by jose
